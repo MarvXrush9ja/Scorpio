@@ -1,0 +1,297 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-family: 'poiret One',  cursive, Helevetica, arial, sans serif;
+	line-height: 1.5;
+};
+
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: #ff751a;
+}
+nav a{
+	color: #262673;
+	text-decoration: none;
+	line-height: 50px;
+	padding: 20px;
+	transition: 0.4s ease-in-out;
+}
+a{
+	text-decoration: none;
+}
+
+nav img{
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 70px;
+}
+
+.bg-landing{
+	width: 100%;
+	height: 500px;
+	color: #fff;
+	background-image: url(../img/projects_2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: relative;
+}
+
+.mx-5 {
+  margin-right: 3rem !important;
+}
+.my-3 {
+  margin-top: 1rem !important;
+}
+.centered{
+	text-align: center;
+}
+.left{
+	margin-right: 70px; 
+}
+.px20{
+	font-size: 20px;
+}
+.px40{
+	font-size: 4em;
+}
+@media(min-width: 900px){
+	.hidden-lg{
+		display: none;
+	}
+	.col-1 {
+	width: 8.33%;
+	position: relative;
+	float: left;
+	}
+	.col-2 {
+		width: 16.66%;
+		position: relative;
+		float: left;
+	}
+	.col-3 {
+		width: 25%;
+		position: relative;
+		float: left;
+	}
+	.col-4 {
+		width: 33.33%;
+		position: relative;
+		float: left;
+	}
+	.col-5 {
+		width: 41.66%;
+		position: relative;
+		float: left;
+	}
+	.col-6 {
+		width: 50%;
+		position: relative;
+		float: left;
+	}
+	.col-7 {
+		width: 58.33%;
+		position: relative;
+		float: left;
+	}
+	.col-8 {
+		width: 66.66%;
+		position: relative;
+		float: left;
+	}
+	.col-9 {
+		width: 75%;
+		position: relative;
+		float: left;
+	}
+	.col-10 {
+		width: 83.33%;
+		position: relative;
+		float: left;
+	}
+	.col-11 {
+		width: 91.66%;
+		position: relative;
+		float: left;
+	}
+	.col-12 {
+		width: 100%;
+		position: relative;
+		float: left;
+	}
+	.off-1 {
+		margin-left: 8.33%;
+	}
+	.off-2 {
+		margin-left: 16.66%;
+	}
+	.off-3 {
+		margin-left: 25%;
+	}
+	.down-3 {
+		margin-top: 3%;
+	}
+	.down-5 {
+		margin-top: 5%;
+	}
+	.down-10 {
+		margin-top: 10%;
+	}
+	.down-15 {
+		margin-top: 15%;
+	}
+	.down-20 {
+		margin-top: 20%;
+	}
+	.down-25 {
+		margin-top: 25%;
+	}
+	.down-30 {
+		margin-top: 30%;
+	}
+}
+
+@media(max-width: 899px){
+	.hidden-xs{
+		display: none;
+	}
+	.xs-1 {
+	width: 8.33%;
+	position: relative;
+	float: left;
+	}
+	.xs-2 {
+		width: 16.66%;
+		position: relative;
+		float: left;
+	}
+	.xs-3 {
+		width: 25%;
+		position: relative;
+		float: left;
+	}
+	.xs-4 {
+		width: 33.33%;
+		position: relative;
+		float: left;
+	}
+	.xs-5 {
+		width: 41.66%;
+		position: relative;
+		float: left;
+	}
+	.xs-6 {
+		width: 50%;
+		position: relative;
+		float: left;
+	}
+	.xs-7 {
+		width: 58.33%;
+		position: relative;
+		float: left;
+	}
+	.xs-8 {
+		width: 66.66%;
+		position: relative;
+		float: left;
+	}
+	.xs-9 {
+		width: 75%;
+		position: relative;
+		float: left;
+	}
+	.xs-10 {
+		width: 83.33%;
+		position: relative;
+		float: left;
+	}
+	.xs-11 {
+		width: 91.66%;
+		position: relative;
+		float: left;
+	}
+	.xs-12 {
+		width: 100%;
+		position: relative;
+		float: left;
+	}
+	.xs-off-1 {
+		margin-left: 8.33%;
+	}
+	.xs-off-2 {
+		margin-left: 16.66%;
+	}
+	.xs-off-3 {
+		margin-left: 25%;
+	}
+	.xs-down-3 {
+		margin-top: 3%;
+	}
+	.xs-down-5 {
+		margin-top: 5%;
+	}
+	.xs-down-10 {
+		margin-top: 10%;
+	}
+	.xs-down-15 {
+		margin-top: 15%;
+	}
+	.xs-down-20 {
+		margin-top: 20%;
+	}
+	.xs-down-25 {
+		margin-top: 25%;
+	}
+	.xs-down-30 {
+		margin-top: 30%;
+	}
+	.img-container{
+		height: 200px !important;
+	}
+	.bg-landing{
+		height: 400px !important;
+		background-attachment: scroll;
+	}
+	.bg-footer{
+		height: 650px !important;
+	}
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.img-container {
+	width: 100%;
+	height: 300px;
+	overflow: visible;
+}
+.img-container img{
+	width: 100%;
+	height: auto;
+}
+.img-container-2 {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+.img-container-2 img{
+	width: 100%;
+	height: auto;
+}
+.card{
+	width: 94%;
+	position: relative;
+	float: left;
+	margin-left: 3%;
+	box-shadow: 0px 2px 16px rgba(0,0,0,0.1);
+	padding-bottom: 30px;
+}
+#vlog{
+	border: 1px dashed black;
+	border-style: ;
+	border-color: #3d1fcc;
+}
