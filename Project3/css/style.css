@@ -1,0 +1,228 @@
+body{
+    overflow-x: hidden;
+    font-family: 'lato', sans-serif;
+    color: #505962;
+}
+/* Navbar  Styling*/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+.navbar-brand img{
+    height: 2rem;
+}
+.navbar-list li{
+    padding-right: 0.7rem
+}
+.navbar-dark .navbar-nav .navbar-link{
+    color: #fff;
+    padding-top: 0.8rem;
+}
+.navbar-dark .navbar-nav .navbar-link:active,
+.navbar-dark .navbar-nav .navbar-link:hover{
+    color: #1ebba3;
+}
+
+.home-inner{
+    background-image: url(../img/apple.png);
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-clip: border-box;
+}
+.built-inner{
+    background-image: url(../img/computers.png);
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-clip: border-box;
+}
+.btn-primary{
+    background: #4bb137;
+    border: 1px solid #246d15;
+}
+.btn-primary:hover{
+    background: #124907;
+    border: 1px solid #124907;
+}
+
+/* Jumbotron  Styling*/
+.jumbotron{
+    padding: 1rem;
+    border-radius: 0; 
+}
+
+/* Welcome Styling*/
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+.fa-youtube-play{
+    color: #e54d26;
+}
+.fa-sliders{
+    color: #563d7c;
+}
+.fa-wpforms{
+    color: #2163af;
+}
+.fa-youtube-play, .fa-sliders, .fa-wpforms {
+    font-size: 4em;
+    margin: 1rem;
+}
+.fa-code{
+    color: #e54d26;
+}
+.fa-bold{
+    color: #563d7c;
+}
+.fa-css3{
+    color: #2163af;
+}
+.fa-code, .fa-bold, .fa-css3 {
+    font-size: 4em;
+    margin: 1rem;
+}
+
+/* Emoji Styling*/
+.fun{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.gif{
+    max-width: 100%;
+}
+
+/* Connect Styling*/
+.social a{
+    font-size: 4.5em;
+    padding: 3rem;
+}
+.fa-facebook-official{
+    color: #3b5998;
+}
+.fa-twitter{
+    color: #00aced;
+}
+.fa-google-plus-official{
+    color: #dd4b39;
+}
+.fa-instagram{
+    color: #517fa8;
+}
+.fa-youtube{
+    color: #bb0000;
+}
+
+.fa-facebook-official:hover,
+.fa-twitter:hover,
+.fa-google-plus-official:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+    color: #d5d5d5;
+}
+
+/* Footer Styling*/
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+footer a{
+    color: #d5d5d5;
+}
+.imf{
+    height: 40px;
+}
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+hr.light-100{
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Other Styling*/
+.padding{
+    padding-bottom: 2rem;
+}
+
+/*** Media Queries ***/
+@media (max-width: 992px){
+    .social a{
+        font-size: 4em;
+        padding: 2em;
+    }
+}
+@media (max-width: 768px){
+    .display-4{
+        font-size: 200%;
+    }
+    .social a{
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+    .card{
+        margin-bottom: 1.2rem;
+    }
+}
+@media (max-width:  576px){
+    .display-4{
+        font-size: 160%;
+    }
+    .social a{
+        font-size: 2em;
+        padding: 0.7rem;
+    }
+    /*.card{
+        margin-bottom: 0.7rem;
+    }*/
+}
+
+/* Fixed BG image */
+figure{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0 !important;
+}
+.fixed-wrap{
+    clip: rect(0 ,auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#fixed{
+    background-image: url(../img/mac.png);
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
