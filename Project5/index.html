@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COSMO CITY HOTEL</title>
+
+    <script src="https://kit.fontawesome.com/8c652eccdb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row bg-landing">
+        <div class="col-8">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="container">
+                    <a class="navbar-brand pt-3" href="#">COSMO <br> <span class="low">CITY</span></a>
+
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#cosmo">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse pt-3 ml-7" id="cosmo">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Home </a></li>
+                            <li class="nav-item slash">/</li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                            <li class="nav-item slash">/</li>
+                            <li class="nav-item"><a class="nav-link" href="rooms.html">Rooms & Rates</a></li>
+                            <li class="nav-item slash">/</li>
+                            <li class="nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="col-4 side mt-3">
+            <div class="row">
+                <div class="col-md-3">
+                    <a class=" mr-4" href="#"><span class="fab fa-twitter fa-2x"></span></a>
+                </div>
+                <div class="col-md-3">
+                    <a class=" mr-4" href="#"><span class="fab fa-facebook-f fa-2x"></span></a>
+                </div>
+                <div class="col-md-3">
+                    <a class=" mr-4" href="#"><span class="fab fa-pinterest fa-2x"></span></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#"><span class="fab fa-instagram fa-2x"></span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-text text-center text-white">
+            <h1>WELCOME</h1>
+            <h4>To the Lap of Luxury. Make Yourself at Home</h4>
+        </div>
+    </div>
+
+    <!-- Booking Section -->
+    <div id="booking-area">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <form action="#" class="form" name="booking-form">
+              <div
+                class="d-flex justify-content-between align-items-center flex-wrap"
+              >
+                <div class="form-group">
+                  <div class="input-placeholder">Arrival</div>
+                  <input
+                    type="date"
+                    class="form-control datepicker"
+                    name="arrival"
+                    id="arrival"
+                    title="Arrival"
+                    
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                    <div class="input-placeholder">Departure</div>
+                  <input
+                    type="date"
+                    class="form-control"
+                    name="checkOut"
+                    id="check-out"
+                    title="Departure"
+                    required
+                  />
+                </div>
+                <div class="form-group mt-4">
+                  <select
+                    class="custom-select"
+                    name="adults"
+                    id="adults"
+                    title="No of Adults staying?"
+                    required
+                  >
+                    <option selected>Adults</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <div class="form-group mt-4">
+                  <select
+                    class="custom-select"
+                    name="children"
+                    id="children"
+                    title="No of Children staying?"
+                    required
+                  >
+                    <option selected>Children</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <div class="form-group mt-4">
+                  <button type="submit" class="btn btn-secondary">
+                    Make Reservation
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Booking Section -->
+
+    <!-- video_area_star-ot -->
+    <div class="video_area bg-vid">
+        <div class="video_area_inner">
+            <div class="container">
+                <div class="icon_video text-center">
+                    <!--<video class="popup-video" src="vid/play.mp4"></video>-->
+                    <a class="popup-video" href="vid/play.mp4"><i class="fas fa-play"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- video_area_end -->
+
+   <hr class="big mt-5">
+
+   <footer>
+       <div class="container">
+           <div class="row">
+               <div class="col-md-5">
+                   <div>
+                       <span class="fas fa-envelope con"></span>
+                       <span><strong>info@cosmocity.com</strong></span>
+                   </div>
+
+                   <div class="mt-2">
+                        <span class="fas fa-phone con"></span>
+                        <span><strong>+234 814 567 9871</strong></span>
+                    </div>
+
+                    <div class="mt-2">
+                        <span class="fas fa-map-marker-alt con"></span>
+                        <span>Koningin Astrid Boulevard Netherlands</span>
+                    </div>
+               </div>
+
+               <div class="col-md-2">
+                   <div><span>Rooms & Rates</span></div>
+                   <div><span>Resturants</span></div>
+                   <div><span>Facilities</span></div>
+                   <div><span>Meeting rooms</span></div>
+               </div>
+
+               <div class="col-md-5">
+                   <div><strong>Stay in touch</strong></div>
+                   <div>Sign up here to recieve interesting updates</div>
+                   <div class="mt-2">
+                       <input type="text" class="full" name="name" id="" placeholder="Your Name">
+                   </div>
+                   <div class="mt-2">
+                        <input type="email" class="full" name="email" id="" placeholder="Email Address">
+                    </div>
+                    <div class="mt-2 end">
+                        <button type="button" class="btn btn-secondary">Send</button>
+                    </div>
+               </div>
+           </div>
+       </div>
+   </footer>
+    
+
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

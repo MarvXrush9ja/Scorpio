@@ -1,0 +1,179 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-landing{
+    background-image: url(/img/hotell.jpg);
+    width: 100%;
+    height: 500px;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.bg-contact{
+    background-image: url(/img/hotell.jpg);
+    width: 100%;
+    height: 400px;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.bg-vid{
+    background-image: url(/img/hotell2.jpg);
+    width: 100%;
+    height: 200px;
+    background-attachment: scroll;
+    background-size: cover;
+    z-index: 1;
+}
+.bg-text{
+    margin: 0 auto;
+}
+.btn-secondary{
+    background-color: #7b8bc7;
+    margin-right: 10px;
+}
+.btn-secondary:hover{
+    background-color: #8293c9;
+}
+.right{
+    text-align: right;
+}
+.con{
+    color: #8293c9;
+}
+/*** Navigation ***/
+nav {
+    font-size: 20px;
+    font-weight: 700;
+    background: #fff;
+}
+nav .navbar-brand{
+    font-weight: 700;
+}
+nav .navbar-brand .low{
+    font-weight: normal;
+}
+.ml-7{
+    margin-left: 10rem;
+}
+.side{
+    padding: 1rem;
+    /* background-color: #7b8bc7; */
+}
+.side a{
+    color: #000;
+    
+}
+.slash{
+    margin-top: 6px;
+}
+
+/*** Reservation ***/
+#booking-area {
+    padding: 2em;
+  }
+  
+  #booking-area .form-group {
+    position: relative;
+  }
+  
+  
+
+/*** Sneak Styling ***/
+
+/* video area start */
+.video_area {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: table;
+  position: relative;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  /* line 4, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_video.scss */
+  .video_area {
+    height: 400px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 4, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_video.scss */
+  .video_area {
+    height: 500px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 4, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_video.scss */
+  .video_area {
+    height: 500px;
+  }
+}
+.video_area .video_area_inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.video_area .icon_video a {
+  width: 80px;
+  height: 80px;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 30px;
+  line-height: 70px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  display: inline-block;
+}
+
+.video_area .icon_video a i {
+  top: 10px;
+  position: relative;
+  left: 3px;
+}
+/*video area ends*/
+
+.small{
+    width: 10%;
+    border-top: 0.2rem solid #7b8bc7;
+}
+.big{
+    border-top: 0.2rem solid #7b8bc7;
+}
+
+/*** FOOTER STYLING ***/
+footer{
+    font-size: 15px;
+}
+.full{
+    width: 100%;
+}
+.end{
+    margin-left: 23rem;
+}
+
+/*** Contacts Styling ***/
+.head{
+    font-size: 25px;
+    font-weight: 700;
+}
+.let{
+    font-size: 15px;
+}
+.form{
+    width: 100%;
+    height: 70px;
+}
+#meg{
+    width: 100%;
+    height: 200px;
+}
+
+/*** ROOMS STYLING ***/
+.card .card-img img{
+    width: 100%;
+    height: 400px;
+}
